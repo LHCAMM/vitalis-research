@@ -22,6 +22,10 @@
       "dest": "/api/index.php"
     },
     {
+      "src": "/(.*\\.(css|js|png|jpg|jpeg|svg|ico|json))",
+      "dest": "/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
