@@ -10,22 +10,6 @@
       "dest": "/safe.html"
     },
     {
-      "src": "/_next/static/(.*)",
-      "dest": "/_next/static/$1"
-    },
-    {
-      "src": "/favicon.ico",
-      "dest": "/favicon.ico"
-    },
-    {
-      "src": "/api/index.php",
-      "dest": "/api/index.php"
-    },
-    {
-      "src": "/(.*\\.(css|js|png|jpg|jpeg|svg|ico|json))",
-      "dest": "/$1"
-    },
-    {
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
